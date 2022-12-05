@@ -15,11 +15,17 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
+        "composer/installers": "^2",
+        "drupal/bundle_tabs": "^1.0",
+        "drupal/chosen": "^3.0",
         "drupal/core-composer-scaffold": "^10",
-        "drupal/core-project-message": "^10",
         "drupal/core-recommended": "^10",
-        "drush/drush": "^11.3"
+        "drupal/devel": "^5.0",
+        "drupal/devel_kint_extras": "^1.1",
+        "drupal/gin": "^3.0@RC",
+        "drupal/gin_toolbar": "^1.0@RC",
+        "drush/drush": "^11.3",
+        "richardbporter/drush-users-commands": "^3.1"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -30,7 +36,6 @@
         "allow-plugins": {
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
-            "drupal/core-project-message": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
         },
         "sort-packages": true
