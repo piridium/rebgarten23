@@ -825,11 +825,11 @@ $databases['default']['default'] = [
   'driver' => 'mysql',
 ];
 
-$config['churchtools_events.settings'] = [
+$config['churchtools.settings'] = [
   'url' => "https://rebgarten.church.tools",
   'username' => "patrick.test",
   'password' => "r2BLCDxrCEANra6ZlMCuTgJQcAmmieb",
-  'apikey' => "LZFPqepzNfamCo7cBmktHJN1IvABNOz2EQgCd8cH2bCkmkz4PuWVyuUyHO7a7qiC4mqWa0QLqVyFIWbC60PLYUs470jj3JoNXB8Pzt7R6FSyCDxXRd39F9Uapo8KNeyZLcuCR9jLkvnPGqcMqmPHV7ghifc8lxNPamTd2mD1CqbXXszJXHaLrVEEpW0pM2bpLDr0n7pUoAWfuy7I1zJJOATRfCW3ImWParg93cIzTLJpyQBAQpAlhDuwFZp2JqnZ"
+  'apikey' => ""
 ];
 
 /**
