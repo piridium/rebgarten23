@@ -802,6 +802,18 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+
+$settings['trusted_host_patterns'] = [
+  '^rebgarten23\.lab$',
+  '^.+\.rebgarten23\.lab$',
+  '^rebgarten\.ch$',
+  '^.+\.rebgarten\.ch$',
+  '^vivakirche-romanshorn\.ch$',
+  '^.+\.vivakirche-romanshorn\.ch$',
+  '^vivakircheromanshorn\.ch$',
+  '^.+\.vivakircheromanshorn\.ch$',
+];
+
 $databases['default']['default'] = [
   'database' => '',
   'username' => '',
