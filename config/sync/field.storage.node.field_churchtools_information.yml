@@ -1,0 +1,21 @@
+uuid: 2c40852e-66ec-48fb-8ac8-41c22194fdf2
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: YPJQpVvMviF3ho_CKuNLJDj20RpknNQW99HFGKkF2Hg
+id: node.field_churchtools_information
+field_name: field_churchtools_information
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: b5bb305a-4ed6-4b37-82cb-64735aebd853
+langcode: de
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 6cDdNX0N2VyHkOL2QhXg4tedjh6T4lWhRK87pn4Z8C4
+name: 'Churchtools Appointment'
+type: churchtools_appointment
+description: 'Stores information retrieved via the Churchtools-API'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

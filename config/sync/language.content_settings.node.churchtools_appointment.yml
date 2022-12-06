@@ -1,0 +1,13 @@
+uuid: f6f2269a-eb19-4702-a05d-c86480164437
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.churchtools_appointment
+_core:
+  default_config_hash: ext-SgelvxQz8QCjO4i94voC0iiTuPFomRK3Muyl6OI
+id: node.churchtools_appointment
+target_entity_type_id: node
+target_bundle: churchtools_appointment
+default_langcode: site_default
+language_alterable: false

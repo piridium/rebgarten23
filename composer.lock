@@ -3639,7 +3639,7 @@
             "dist": {
                 "type": "path",
                 "url": "web/modules/custom/churchtools",
-                "reference": "cbcb1de0811c78e36892ebcbf587c2561188d0ca"
+                "reference": "ce59baeba732d767d7fc1c45259307133a075bd1"
             },
             "require": {
                 "5pm-hdh/churchtools-api": "^1.3"

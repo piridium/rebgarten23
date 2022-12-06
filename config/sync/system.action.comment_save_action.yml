@@ -1,0 +1,13 @@
+uuid: 27ff4818-0826-4e0d-ba76-102e6a67cce9
+langcode: de
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: lfyE_snmvfg_EQ3VDyhUtGAXgmqtEiqa46I3bTMg8DU
+id: comment_save_action
+label: 'Kommentar speichern'
+type: comment
+plugin: 'entity:save_action:comment'
+configuration: {  }

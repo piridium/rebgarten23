@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: de
+uuid: 5d3b085b-9065-4348-8ff5-20efc27dce38
+name: 'Kirche im Rebgarten'
+mail: noreply@rebgarten.ch
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: de

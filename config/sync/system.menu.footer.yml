@@ -1,0 +1,10 @@
+uuid: ce57b360-d4f9-4e2f-86e9-5b4783b5410e
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: Fußzeile
+description: 'Links zu Website-Informationen'
+locked: true

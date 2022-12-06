@@ -1,0 +1,93 @@
+uuid: 5e560b2f-fbdc-4e66-b5ff-478445399f7a
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.churchtools_appointment.field_churchtools_calendar_name
+    - field.field.node.churchtools_appointment.field_churchtools_datetimerange
+    - field.field.node.churchtools_appointment.field_churchtools_id
+    - field.field.node.churchtools_appointment.field_churchtools_information
+    - field.field.node.churchtools_appointment.field_churchtools_link
+    - field.field.node.churchtools_appointment.field_churchtools_note
+    - field.field.node.churchtools_appointment.field_churchtools_version
+    - node.type.churchtools_appointment
+  module:
+    - datetime_range
+    - link
+    - text
+    - user
+_core:
+  default_config_hash: 4jAqk6oCn9z8t1ZCRFaJaM5kMwDyMzUPPpSAC8A0g3U
+id: node.churchtools_appointment.default
+targetEntityType: node
+bundle: churchtools_appointment
+mode: default
+content:
+  field_churchtools_calendar_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_churchtools_datetimerange:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: '-'
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_churchtools_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_churchtools_information:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_churchtools_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_churchtools_note:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_churchtools_version:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

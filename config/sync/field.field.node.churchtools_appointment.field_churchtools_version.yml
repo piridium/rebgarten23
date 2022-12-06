@@ -1,0 +1,25 @@
+uuid: 1b3570fc-af09-44e0-9c1e-2ab8690d457d
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_churchtools_version
+    - node.type.churchtools_appointment
+_core:
+  default_config_hash: mt6vgbyDw0WXna1yeR1ursd-5V3iDFi_WOgQBhIOWHA
+id: node.churchtools_appointment.field_churchtools_version
+field_name: field_churchtools_version
+entity_type: node
+bundle: churchtools_appointment
+label: Version
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

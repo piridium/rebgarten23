@@ -1,0 +1,23 @@
+uuid: 516e58bc-1d8b-4caa-97e1-c4d0096a0599
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_churchtools_note
+    - node.type.churchtools_appointment
+  module:
+    - text
+_core:
+  default_config_hash: yG3pfAbzGjMy1ZuiQa_YCQ_Lhm2CHvXX8jlStsxHnCk
+id: node.churchtools_appointment.field_churchtools_note
+field_name: field_churchtools_note
+entity_type: node
+bundle: churchtools_appointment
+label: Note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

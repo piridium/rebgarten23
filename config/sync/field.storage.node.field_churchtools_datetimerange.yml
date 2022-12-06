@@ -1,0 +1,22 @@
+uuid: f434f3e3-0b94-4cf9-922f-ce31e42451b7
+langcode: de
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+_core:
+  default_config_hash: Y_Rbvzt8FQV4kYmBp4OgSxQVCRLYr-x8JvwSfV_hweo
+id: node.field_churchtools_datetimerange
+field_name: field_churchtools_datetimerange
+entity_type: node
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

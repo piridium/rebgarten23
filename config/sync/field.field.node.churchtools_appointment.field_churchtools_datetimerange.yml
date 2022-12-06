@@ -1,0 +1,28 @@
+uuid: e1dbf7e1-576d-4f2b-aa84-795d8d4bdf92
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_churchtools_datetimerange
+    - node.type.churchtools_appointment
+  module:
+    - datetime_range
+_core:
+  default_config_hash: VK4-ey7IBJf4Du4GEbzONCoz9NDl_ZDyasxqBO6UYhU
+id: node.churchtools_appointment.field_churchtools_datetimerange
+field_name: field_churchtools_datetimerange
+entity_type: node
+bundle: churchtools_appointment
+label: Zeitraum
+description: 'Stores the datetime range from churchtools.'
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: now
+    default_end_date: now
+default_value_callback: ''
+settings: {  }
+field_type: daterange

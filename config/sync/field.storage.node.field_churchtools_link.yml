@@ -1,0 +1,21 @@
+uuid: 6c89533b-d542-42d0-a0f2-a1d9d1a0e7d6
+langcode: de
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: 9qt6oTZQHd8XnOyOSw74teFD1MlOHCx3R7XutBKCPy0
+id: node.field_churchtools_link
+field_name: field_churchtools_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

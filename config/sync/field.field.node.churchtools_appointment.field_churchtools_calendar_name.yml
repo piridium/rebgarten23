@@ -1,0 +1,21 @@
+uuid: fd150d3a-d724-45b4-8757-9def22ebd72e
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_churchtools_calendar_name
+    - node.type.churchtools_appointment
+_core:
+  default_config_hash: NbRH9fcySBvamnkVfZTwi-5jPhJ9pslqpUboSszQs20
+id: node.churchtools_appointment.field_churchtools_calendar_name
+field_name: field_churchtools_calendar_name
+entity_type: node
+bundle: churchtools_appointment
+label: Kalender-Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
