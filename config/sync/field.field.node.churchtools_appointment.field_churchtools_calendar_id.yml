@@ -1,0 +1,23 @@
+uuid: 68604998-d6ca-4618-bee5-0f464291df8e
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_churchtools_calendar_id
+    - node.type.churchtools_appointment
+id: node.churchtools_appointment.field_churchtools_calendar_id
+field_name: field_churchtools_calendar_id
+entity_type: node
+bundle: churchtools_appointment
+label: Kalender-ID
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

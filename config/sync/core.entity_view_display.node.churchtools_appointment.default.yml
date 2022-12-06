@@ -3,6 +3,7 @@ langcode: de
 status: true
 dependencies:
   config:
+    - field.field.node.churchtools_appointment.field_churchtools_calendar_id
     - field.field.node.churchtools_appointment.field_churchtools_calendar_name
     - field.field.node.churchtools_appointment.field_churchtools_datetimerange
     - field.field.node.churchtools_appointment.field_churchtools_id
@@ -23,6 +24,15 @@ targetEntityType: node
 bundle: churchtools_appointment
 mode: default
 content:
+  field_churchtools_calendar_id:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 111
+    region: content
   field_churchtools_calendar_name:
     type: string
     label: above

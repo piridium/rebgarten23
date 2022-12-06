@@ -1,0 +1,15 @@
+uuid: a1386ad5-eefb-4935-9b7e-f77b084df833
+langcode: de
+status: true
+dependencies: {  }
+id: yearless_date_only
+label: 'Yearless Date Only'
+date_format: 'D j. F'
+time_format: ''
+time_hour_format: ''
+allday_label: ''
+separator: ' - '
+join: ', '
+ampm_reduce: '1'
+date_first: '1'
+site_time_toggle: '1'

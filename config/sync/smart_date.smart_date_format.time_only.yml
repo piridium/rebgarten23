@@ -1,0 +1,17 @@
+uuid: 27f99bd2-bd2a-46af-a0d8-4d04a393a6d5
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xEhkfUyGlu4kn_4FEWINXB7DujMZQzmQdhJofrbE7Ck
+id: time_only
+label: 'Time Only'
+date_format: ''
+time_format: 'G:i'
+time_hour_format: 'G:i'
+allday_label: 'Ganzer Tag'
+separator: ' - '
+join: ', '
+ampm_reduce: '1'
+date_first: '1'
+site_time_toggle: '1'

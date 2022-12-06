@@ -1,0 +1,17 @@
+uuid: 95384d9d-faf3-42c6-84e8-287fc3283f00
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QOzaA8j2871_aWBJyVZm_LqREilQnXZqRuk3HNANrEo
+id: default
+label: Standardeinstellung
+date_format: 'D j. M Y'
+time_format: 'G:i \U\h\r'
+time_hour_format: 'G \U\h\r'
+allday_label: 'ganzer Tag'
+separator: ' - '
+join: ' | '
+ampm_reduce: '1'
+date_first: '1'
+site_time_toggle: '1'

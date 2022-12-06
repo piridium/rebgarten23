@@ -1,0 +1,8 @@
+uuid: 334f1bec-4a6a-4af5-9db2-41297434c022
+langcode: de
+status: true
+dependencies: {  }
+id: zeit_hh_mm
+label: 'Zeit hh:mm'
+locked: false
+pattern: 'H:i'

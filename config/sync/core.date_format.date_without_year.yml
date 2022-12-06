@@ -1,0 +1,8 @@
+uuid: 1685546f-9f17-4668-9f5b-5468ec809f8a
+langcode: de
+status: true
+dependencies: {  }
+id: date_without_year
+label: 'Datum ohne Jahr'
+locked: false
+pattern: 'D j. F'
