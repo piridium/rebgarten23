@@ -5,16 +5,16 @@ url: ''
 username: ''
 password: ''
 api-key: LZFPqepzNfamCo7cBmktHJN1IvABNOz2EQgCd8cH2bCkmkz4PuWVyuUyHO7a7qiC4mqWa0QLqVyFIWbC60PLYUs470jj3JoNXB8Pzt7R6FSyCDxXRd39F9Uapo8KNeyZLcuCR9jLkvnPGqcMqmPHV7ghifc8lxNPamTd2mD1CqbXXszJXHaLrVEEpW0pM2bpLDr0n7pUoAWfuy7I1zJJOATRfCW3ImWParg93cIzTLJpyQBAQpAlhDuwFZp2JqnZ
-timeframe: +2month
+timeframe: +6month
 calendar_ids:
+  29: '29'
+  24: '24'
+  5: '5'
+  7: '7'
+  6: '6'
+  4: '4'
+  3: '3'
+  31: '31'
+  2: '2'
+  8: '8'
   30: '30'
-  29: 0
-  24: 0
-  5: 0
-  7: 0
-  6: 0
-  4: 0
-  3: 0
-  31: 0
-  2: 0
-  8: 0
